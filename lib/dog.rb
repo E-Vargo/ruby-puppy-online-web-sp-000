@@ -1,9 +1,11 @@
 # Add your code here
 class Dog
+  attr_accessor :name
 #class variable
 @@all = []
 
-def initialize
+def initialize(name)
+  @name = name
   @@all << self
 end
 
