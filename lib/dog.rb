@@ -11,5 +11,8 @@ def self.all
 @@all
 end
 
+def self.print_all
+@@all.each {|i| puts i}
+end
 
 end
