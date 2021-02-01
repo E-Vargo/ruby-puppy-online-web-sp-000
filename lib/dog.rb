@@ -14,7 +14,7 @@ def self.all
 end
 
 def self.print_all
-@@all.each {|i| puts i.to_s}
+@@all.each {|i| puts i.name}
 end
 
 def self.clear_all
